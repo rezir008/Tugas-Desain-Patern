@@ -17,6 +17,8 @@ public class Pakaian {
     public static void main(String[] args) {
         // TODO code application logic here
         // a
+        template_method presentasi = new trench_coat();
+        presentasi.mulai();
     }
     
 }
