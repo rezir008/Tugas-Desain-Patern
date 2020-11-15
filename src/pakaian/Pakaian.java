@@ -13,6 +13,6 @@ public class Pakaian {
 
    public static void main(String[] args) {
         singleton_baju baju = singleton_baju.GetInstance(); //membuat objek baru dengan menggunakan method GetInstance
-        
+        baju.jenis_baju(); //Gunakan objek baju untuk panggil method jenis_baju di class singleton_baju
     }
 }
