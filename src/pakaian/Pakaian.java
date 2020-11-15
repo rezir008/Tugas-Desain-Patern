@@ -1,28 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pakaian;
 
-/**
- *
- * @author Ruu
- */
 public class Pakaian {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        
-        // a
+        //demo Singleton
+        System.out.println("Singleton");
+        singleton_baju baju = singleton_baju.GetInstance(); //membuat objek baru dengan menggunakan method GetInstance
+        baju.jenis_baju(); //Gunakan objek baju untuk panggil method jenis_baju di class singleton_baju
+      
+        System.out.println("");
+        System.out.println("Template Method");
         //demo template method
+        
         template_method presentasi = new trench_coat();
         presentasi.mulai();
         
         presentasi = new syal();
         presentasi.mulai();
+      
+        //demo Adapter
+        System.out.println("");
+        System.out.println("Adapter");
     }
-    
 }
