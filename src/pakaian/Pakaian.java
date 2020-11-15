@@ -11,7 +11,5 @@ package pakaian;
  */
 public class Pakaian {
 
-    /**
-     * @param args the command line arguments
-     */
+   
 }

@@ -24,6 +24,6 @@ private static singleton_baju instance; //membuat instance/objek singleton_baju
   
   protected static void jenis_baju() //Membuat method turunan yang digunakan untuk mengetest method singleton dari class singleton_baju
    {
-       System.out.println("Jenis Baju : Spandex");
+       System.out.println("Bahan Baju : Spandex");
    }
 }
