@@ -1,6 +1,7 @@
 package pakaian;
 
 public class Adapter_jbtersedia implements Adapter_baju{
+    Adapter_jbtersedia_new adapter_jbtersedia_new;
     public void cekjb(String jbaju) {
         if(jbaju.equalsIgnoreCase("kemeja")){
             System.out.println("jenis " + jbaju + " yang tersedia adalah :");
@@ -13,6 +14,13 @@ public class Adapter_jbtersedia implements Adapter_baju{
             System.out.println("7. Hawaii");
             System.out.println("8. Overshirt");
         } 
+        else if(jbaju.equalsIgnoreCase("jaket") || jbaju.equalsIgnoreCase("kaos")){
+            adapter_jbtersedia_new = new Adapter_jbtersedia_new(jbaju); 
+            adapter_jbtersedia_new.cekjb(jbaju);
+        }
+        else{
+            System.out.println("Jenis Baju Tidak Tersedia");
+        }
         System.out.println("");
     }
     
