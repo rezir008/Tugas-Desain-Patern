@@ -20,5 +20,10 @@ public class Pakaian {
         //demo Adapter
         System.out.println("");
         System.out.println("Adapter");
+        Adapter_jbtersedia jbtersedia = new Adapter_jbtersedia();
+        jbtersedia.cekjb("kemeja");
+        jbtersedia.cekjb("kaos");
+        jbtersedia.cekjb("gaun");
+        jbtersedia.cekjb("jaket");
     }
 }
