@@ -15,9 +15,14 @@ public class Pakaian {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        // by ferry
-        // hai syang
+        
+        // a
+        //demo template method
+        template_method presentasi = new trench_coat();
+        presentasi.mulai();
+        
+        presentasi = new syal();
+        presentasi.mulai();
     }
     
 }
