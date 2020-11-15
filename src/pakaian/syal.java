@@ -9,14 +9,12 @@ package pakaian;
  *
  * @author user
  */
-public class trench_coat extends template_method{
-    String bahan = "Gabardin";
-    String asal = "Inggris";
+public class syal extends template_method{
+    String bahan = "Wool";
+    String asal = "Italia";
     
     void deskripsikan(){
         System.out.println("pakaian jenis ini terbuat dari bahan " + bahan + " dan berasal dari " + asal + " .");
-        System.out.println();
-
     }
     
 }
