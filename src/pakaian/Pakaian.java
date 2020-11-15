@@ -11,5 +11,8 @@ package pakaian;
  */
 public class Pakaian {
 
-   
+   public static void main(String[] args) {
+        singleton_baju baju = singleton_baju.GetInstance(); //membuat objek baru dengan menggunakan method GetInstance
+        
+    }
 }
