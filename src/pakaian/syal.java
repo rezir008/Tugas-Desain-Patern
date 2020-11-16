@@ -10,11 +10,21 @@ package pakaian;
  * @author user
  */
 public class syal extends template_method{
+    String nama = "syal";
     String bahan = "Wool";
     String asal = "Italia";
+    int stok = 6;
+    int harga = 55999;
     
     void deskripsikan(){
-        System.out.println("pakaian jenis ini terbuat dari bahan " + bahan + " dan berasal dari " + asal + " .");
+        System.out.println();
+        System.out.println("pakaian jenis ini terbuat dari bahan " + bahan + " dan berasal dari " + asal + 
+        " .");
+    }
+    
+    void memiliki(){
+        System.out.println("saat ini kami memiliki " + stok + " " + nama + " dengan harga Rp." + harga + 
+        ",-");
     }
     
 }
