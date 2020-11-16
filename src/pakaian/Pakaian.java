@@ -2,9 +2,9 @@ package pakaian;
 
 import pakaian.AdapterPattern.Adapter_jbtersedia;
 
-import TemplatePattern.TemplateMethod;
-import TemplatePattern.TemplateMethod_TrenchCoat;
-import TemplatePattern.TemplateMethod_Syal;
+import pakaian.TemplatePattern.TemplateMethod;
+import pakaian.TemplatePattern.TemplateMethod_TrenchCoat;
+import pakaian.TemplatePattern.TemplateMethod_Syal;
 
 public class Pakaian {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class Pakaian {
         TemplateMethod presentasi = new TemplateMethod_TrenchCoat();
         presentasi.mulai();
         
-        //TeplateMethod_Syal ditimpakan ke presentasi
+        //TemplateMethod_Syal ditimpakan ke presentasi
         presentasi = new TemplateMethod_Syal();
         presentasi.mulai();
     }

@@ -1,4 +1,4 @@
-package TemplatePattern;
+package pakaian.TemplatePattern;
 
 public class TemplateMethod_Syal extends TemplateMethod{
     String nama = "Syal";

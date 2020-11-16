@@ -1,4 +1,4 @@
-package TemplatePattern;
+package pakaian.TemplatePattern;
 
 public abstract class TemplateMethod {
     String nama;

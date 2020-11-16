@@ -1,4 +1,4 @@
-package TemplatePattern;
+package pakaian.TemplatePattern;
 
 public class TemplateMethod_TrenchCoat extends TemplateMethod {
     String nama = "Trench Coat";
