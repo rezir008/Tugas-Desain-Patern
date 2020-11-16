@@ -1,4 +1,4 @@
-package TemplateMethod;
+package TemplatePattern;
 
 public abstract class TemplateMethod {
     String nama;
