@@ -5,9 +5,12 @@ import pakaian.AdapterPattern.Adapter_jbtersedia;
 import pakaian.TemplatePattern.TemplateMethod;
 import pakaian.TemplatePattern.TemplateMethod_TrenchCoat;
 import pakaian.TemplatePattern.TemplateMethod_Syal;
+import pakaian.SingletonPattern.singleton_baju;  
 
 public class Pakaian {
     public static void main(String[] args) {
+        
+        
         
         //demo Adapter
         System.out.println("");
