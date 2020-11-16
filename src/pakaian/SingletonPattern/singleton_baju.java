@@ -19,4 +19,9 @@ public class singleton_baju {
      instance = new singleton_baju();}//jika null maka buat instance/objek baru
     return instance; }
 //Pengecekan di atas memastikan bahwa hanya akan ada satu instance/objek dari kelas tersebut
+  
+    public static void bahan_baju() //Membuat method turunan yang digunakan untuk mengetest method singleton dari class singleton_baju
+   {
+       System.out.println("Bahan Baju : Spandex");
+   }  
 }
