@@ -34,10 +34,10 @@ public class Pakaian {
         System.out.println("**Template Method**");
         //demo template method
         
-        template_method presentasi = new trench_coat();
+        Template_Method presentasi = new Template_Method_trench_coat();
         presentasi.mulai();
         
-        presentasi = new syal();
+        presentasi = new Template_Method_syal();
         presentasi.mulai();
       
         //demo Adapter

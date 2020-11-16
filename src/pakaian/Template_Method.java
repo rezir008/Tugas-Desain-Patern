@@ -9,7 +9,7 @@ package pakaian;
  *
  * @author user
  */
-public abstract class template_method {
+public abstract class Template_Method {
     String nama;
     String bahan;
     String asal;
